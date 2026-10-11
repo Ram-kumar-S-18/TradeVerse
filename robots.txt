@@ -6,5 +6,4 @@
 User-agent: *
 Allow: /
 
-# After you deploy to a real domain, replace the host below with your domain.
-Sitemap: https://REPLACE-WITH-YOUR-DOMAIN/sitemap.xml
+Sitemap: https://tradeverse-simulation.netlify.app/sitemap.xml

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   TradeVerse sitemap.
-  Replace REPLACE-WITH-YOUR-DOMAIN with your live domain after deploying,
-  then update the same host inside robots.txt.
   Hash-based routes (#/learn, #/event, ...) are not separate URLs, so the
   site intentionally lists only the root document.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://REPLACE-WITH-YOUR-DOMAIN/</loc>
+    <loc>https://tradeverse-simulation.netlify.app/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
