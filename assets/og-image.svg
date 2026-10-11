@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="TradeVerse — Understand the Market. Practise Every Move.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39FF14"/>
+      <stop offset="1" stop-color="#00E5A0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+    <line x1="0" y1="158" x2="1200" y2="158"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <g transform="translate(90 96)">
+    <rect width="44" height="44" rx="12" fill="#39FF14" opacity="0.14"/>
+    <path d="M8 30 L18 18 L26 24 L40 8" stroke="#39FF14" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="40" cy="8" r="4" fill="#00E5A0"/>
+  </g>
+  <text x="150" y="132" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="800" fill="#ffffff">Trade<tspan fill="#39FF14">Verse</tspan></text>
+  <text x="90" y="300" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" fill="#ffffff">Understand the Market.</text>
+  <text x="90" y="392" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" fill="url(#accent)">Practise Every Move.</text>
+  <text x="90" y="478" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" fill="#a3a3a3">A free, educational trading simulator — timed quiz and a risk-free arena.</text>
+  <text x="90" y="546" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" fill="#6b6b6b">Virtual money only. Sample market data. No login.</text>
+</svg>

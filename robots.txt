@@ -1,0 +1,10 @@
+# TradeVerse — robots.txt
+# TradeVerse is a single-page app that uses hash-based routes (#/learn,
+# #/event, ...), so all content lives under the root document. Only the
+# root is crawlable; there are no separate deep URLs to index.
+
+User-agent: *
+Allow: /
+
+# After you deploy to a real domain, replace the host below with your domain.
+Sitemap: https://REPLACE-WITH-YOUR-DOMAIN/sitemap.xml

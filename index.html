@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>TradeVerse — Understand the Market. Practise Every Move.</title>
+<meta name="description" content="TradeVerse is a free, educational trading simulator: practise a timed market quiz and a risk-free trading arena with virtual money, plus beginner lessons and interactive charts. No real money, no login.">
+<meta name="robots" content="index, follow">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#050505">
+
+<!-- Metadata below assumes a relative asset path. After you connect a custom
+     domain, replace the relative og:image with an absolute URL and add a
+     canonical link, e.g. <link rel="canonical" href="https://your-domain/"> -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TradeVerse">
+<meta property="og:title" content="TradeVerse — Understand the Market. Practise Every Move.">
+<meta property="og:description" content="Practise a timed market quiz and a risk-free trading arena with virtual money. Free, educational, no login — sample data only.">
+<meta property="og:image" content="assets/og-image.svg">
+<meta property="og:image:alt" content="TradeVerse — learn markets and practise trading risk-free">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TradeVerse — Understand the Market. Practise Every Move.">
+<meta name="twitter:description" content="Practise a timed market quiz and a risk-free trading arena with virtual money. Free, educational, no login — sample data only.">
+<meta name="twitter:image" content="assets/og-image.svg">
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#/" data-route="home" aria-label="TradeVerse home">
+      <svg class="brand-mark" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">
+        <rect width="24" height="24" rx="6" fill="#39FF14" opacity="0.14"/>
+        <path d="M4 16 L9 10 L13 13 L20 6" stroke="#39FF14" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="20" cy="6" r="2" fill="#00E5A0"/>
+      </svg>
+      <span class="brand-name">Trade<span class="brand-accent">Verse</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="#/event" data-route="event">Intra-Event Mode</a>
+      <a href="#/learn" data-route="learn">Learn</a>
+      <a href="#/chart-lab" data-route="chart-lab">Chart Lab</a>
+      <a href="#/simulator" data-route="simulator">Simulator</a>
+      <a href="#/glossary" data-route="glossary">Glossary</a>
+      <a href="#/about" data-route="about">About</a>
+    </nav>
+    <div class="header-actions">
+      <a href="#/event" data-route="event" class="btn btn-primary btn-small">Enter Event</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="page" tabindex="-1">
+  <div id="view" class="view" aria-live="polite"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-name">Trade<span class="brand-accent">Verse</span></span>
+      <p>A free educational platform that teaches financial market basics through guided lessons and simulated trading. TradeVerse does not provide financial advice and does not execute real trades.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <div class="footer-col">
+        <h4>Learn</h4>
+        <a href="#/learn" data-route="learn">Learning Path</a>
+        <a href="#/chart-lab" data-route="chart-lab">Chart Lab</a>
+        <a href="#/simulator" data-route="simulator">Simulator</a>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#/event" data-route="event">Intra-Event Mode</a>
+        <a href="#/glossary" data-route="glossary">Glossary</a>
+        <a href="#/about" data-route="about">About</a>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <a href="#/help" data-route="help">Help &amp; FAQ</a>
+        <a href="#/about" data-route="about">About TradeVerse</a>
+      </div>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p class="disclaimer">
+      <strong>Educational only.</strong> All market data shown is simulated sample data. Nothing on TradeVerse constitutes investment or trading advice. Markets carry risk — practise on TradeVerse before making any real decision.
+    </p>
+    <p class="copyright">© <span id="year">2026</span> TradeVerse. Built for learning.</p>
+  </div>
+</footer>
+
+<div class="modal-root" id="modal-root" hidden></div>
+<div class="toast-root" id="toast-root" aria-live="polite" aria-atomic="true"></div>
+<noscript><p class="noscript">TradeVerse needs JavaScript enabled to run its interactive lessons, charts, and simulator.</p></noscript>
+
+<script src="js/format.js"></script>
+<script src="js/dom.js"></script>
+<script src="js/markdown.js"></script>
+<script src="js/store.js"></script>
+<script src="js/engine/simulation.js"></script>
+<script src="js/engine/quiz.js"></script>
+<script src="js/data/market.js"></script>
+<script src="js/data/glossary.js"></script>
+<script src="js/data/quiz-bank.js"></script>
+<script src="js/data/lessons.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/widgets.js"></script>
+<script src="js/router.js"></script>
+<script src="js/views/landing.js"></script>
+<script src="js/views/learning-path.js"></script>
+<script src="js/views/lesson.js"></script>
+<script src="js/views/chart-lab.js"></script>
+<script src="js/views/simulator.js"></script>
+<script src="js/views/arena-hub.js"></script>
+<script src="js/views/quiz.js"></script>
+<script src="js/views/trading-arena.js"></script>
+<script src="js/views/glossary.js"></script>
+<script src="js/views/about-help.js"></script>
+<script src="js/views/not-found.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

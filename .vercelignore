@@ -1,0 +1,6 @@
+# Files excluded from Vercel uploads (internal / non-public).
+tests/
+node_modules/
+netlify.toml
+.gitignore
+.vercelignore
